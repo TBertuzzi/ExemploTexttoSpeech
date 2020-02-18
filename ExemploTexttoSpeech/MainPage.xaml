@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             Padding="0,60,0,0"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ExemploTexttoSpeech.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Converta seu Texto em fala!"/>
+        <Entry x:Name="entryTexto" Placeholder="Digite seu texto aqui"/>
+        <Button Text="Falar meu texto" Clicked="btnFalar_Executar" />
+        <Button Text="Falar meu texto com configuração" Clicked="btnFalar_ExecutarVolumes" />
+        <Button Text="Falar varios textos" Clicked="btnFalar_ExecutarTextos" />
+        <Button Text="Falar em outro idioma meu texto" Clicked="btnFalar_ExecutarLocalidades" />
+    </StackLayout>
+</ContentPage>
